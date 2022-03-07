@@ -1,0 +1,51 @@
+0. Requirements Gathering
+1. Planning
+2. Design
+3. Development
+4. Testing
+5. Deployment
+6. Maintenance
+
+Waterfall method:
+We complete one stage of the SDLC, and then move on to the next
+At the end, we have a finished product
+
+Problem:
+Let's say that we want to change some part of our development
+during the production of our product
+    For example: we find that the stakeholders had a different idea
+    of what they want
+    We want to change a tech stack
+    Development is beyond schedule and we can't complete our product
+    on time
+All of these are problems with a 'monolithic' design where everything is
+completed as a single unit
+
+Solution:
+Agile development
+The SDLC is iterated through with sprints...
+meaning all steps of the SDLC are run through for small portions of our
+application
+So, the SDLC is on a loop in which a microcosm of the application is
+completed with each spring (2-4 weeks) - including testing and deployment
+What does this mean?
+Constant communication with client
+Constant communication with developers in charge of all phases of lifecycle
+Scrum:
+Scrum involves ceremonies
+    Ceremonies involving sprint planning, daily standup, reviews and retrospectives
+That's a lot of work... we need to introduce a new team to the developers:
+the devops team
+Continuous Integration:
+    The contributions of all developers are constantly being combined
+    into a single repository (IE git)
+        We use well-managed branches and merging to plan development, testing,
+        deployment
+Continuous Delivery:
+    Some portion of the testing/deployment process is automated, but a product
+    close to completion is delivered to humans for a final round of testing
+    and/or manual deployment
+Continuous Deployment:
+    This is the goal. Testing and deployment are automated by the Devops team,
+    and all developers have to do is push code and the testing and deployment
+    will be done automatically

@@ -6,6 +6,7 @@ You may use Java's collections implementations
 Must implement all CRUD (create-read-update-delete) functionality for database
 Must include some form(s) of multiplicity
 Logging
+Must be hosted on a VM
 
 Option 1 (spring option)
 Must be a REST api that employs a front-controller/MVC architecture
