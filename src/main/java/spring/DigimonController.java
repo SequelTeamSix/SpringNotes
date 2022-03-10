@@ -34,6 +34,10 @@ public class DigimonController {
     public List<Digimon> getDigimonByPower(@PathVariable int pow){
         return digimonService.findAllDigimonByPower(pow);
     }
+    @GetMapping("power/max")
+    public Digimon getMaxPowerDigimon(){
+        return digimonService.getMaxPowerDigimon();
+    }
     /*you're likely to also need
     a delete mapping
     @DeleteMapping

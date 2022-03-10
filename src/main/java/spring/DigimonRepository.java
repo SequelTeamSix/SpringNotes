@@ -27,6 +27,9 @@ public interface DigimonRepository extends JpaRepository<Digimon, Integer> {
 
     List<Digimon> findAllByPower(int power);
 
+    @Query("from Digimon where power = (SELECT max(power) from Digimon)")
+    Digimon getMaxPowerDigimon();
+
 }
 
 /*

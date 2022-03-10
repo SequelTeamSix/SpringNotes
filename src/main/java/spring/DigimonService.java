@@ -39,5 +39,7 @@ public class DigimonService {
     public List<Digimon> findAllDigimonByPower(int power){
         return digimonRepository.findAllByPower(power);
     }
-
+    public Digimon getMaxPowerDigimon(){
+        return digimonRepository.getMaxPowerDigimon();
+    }
 }
