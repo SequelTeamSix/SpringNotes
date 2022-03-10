@@ -1,0 +1,24 @@
+VM's are cool...
+But what if we made a better version somehow?
+Namely... we typically need to start up a whole VM and this is so far a long process
+(we could create templates for VMs on Azure, but still, they are bulky and have a long spinup time
+and may be hard to change - recall how much work we had to do to install java and maven)
+To speed up this process:
+
+We strip VM's down a bit
+
+Namely, typically a VM is an entire OS
+But, at some point programmer found out how to 'simulate' virtualization while reusing
+the computer's Operating System
+Virtualization: the principle that a program exists in a 'sandbox' where it thinks it has
+full access to the computer, but really, it does not
+Introducing Docker, Docker containers
+
+Docker installation:
+    Windows, by default, never came with the right features to support this system,
+    so you will need to make sure some things are in place to use Docker
+        Enable Virtualization
+        Powershell -
+        Will require system restart
+
+

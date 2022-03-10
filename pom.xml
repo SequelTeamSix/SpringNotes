@@ -56,11 +56,6 @@
             <artifactId>mssql-jdbc</artifactId>
             <version>10.2.0.jre11</version>
         </dependency>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
-        </dependency>
 
     </dependencies>
 
@@ -71,9 +66,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <excludes>
-                        <image>
-                            <name>.io/bootpipeline</name>
-                        </image>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
                             <artifactId>lombok</artifactId>

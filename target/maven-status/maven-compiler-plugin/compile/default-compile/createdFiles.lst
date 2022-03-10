@@ -1,0 +1,6 @@
+spring\Digimon.class
+spring\Application2.class
+spring\DigimonRepository.class
+spring\DigimonAspect.class
+spring\DigimonController.class
+spring\DigimonService.class

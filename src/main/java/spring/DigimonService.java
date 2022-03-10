@@ -33,6 +33,7 @@ public class DigimonService {
         return digimonRepository.findByName(name);
     }
     public Digimon saveDigimon(Digimon digimon){
+        digimon.setName("DigiD");
         return digimonRepository.save(digimon);
     }
     public List<Digimon> findAllDigimonByPower(int power){

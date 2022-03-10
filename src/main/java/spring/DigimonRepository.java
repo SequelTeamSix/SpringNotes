@@ -19,10 +19,10 @@ public interface DigimonRepository extends JpaRepository<Digimon, Integer> {
 
     Digimon save(Digimon digimon);
 
-    //@Query("from Digimon")
+    @Query("from Digimon")
     List<Digimon> findAll();
 
-    //@Query("from Digimon where name = :name")
+    @Query("from Digimon where name = :name")
     Digimon findByName(String name);
 
     List<Digimon> findAllByPower(int power);
